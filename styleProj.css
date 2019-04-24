@@ -2,11 +2,25 @@ div {
   display: block;
 }
 
+nav.navbar a.navbar-brand{
+  padding-left: 10px;
+}
+
+div.collapse {
+  padding-left: 40px;
+}
+
+div.collapse li.nav-item{
+  padding-left: 30px;
+}
+
 body {
   display: block;
   font-family: 'Kanit', sans-serif;
-  font-size: 14px;
-  background-color: #f2f4f5; }
+  font-size: 18px;
+  background-color: #f2f4f5;
+
+}
 
 * {
   margin: 0;
@@ -18,6 +32,11 @@ p {
   font-size: 12px;
   line-height: 2;
   font-weight: 400; }
+
+button.btn{
+    position: relative;
+    margin-left: 600px;
+  }
 
 .p-30 {
   padding: 30px !important; }
