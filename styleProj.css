@@ -14,6 +14,29 @@ div.collapse li.nav-item{
   padding-left: 30px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  nav.navbar a.navbar-brand{
+    padding-left: 0px;}
+  div.collapse {
+    padding-left: 0px;}
+  div.collapse li.nav-item{
+    padding-left: 0px;
+    padding-bottom: 5px;} }
+@media only screen and (max-width: 767px) {
+  nav.navbar a.navbar-brand{
+    padding-left: 0px;}
+  div.collapse {
+    padding-left: 0px;}
+  div.collapse li.nav-item{
+    padding-left: 0px;
+    padding-bottom: 5px;} }
+
+button.btn{
+  position: relative;
+  margin-right: 20px;
+}
+
+
 body {
   display: block;
   font-family: 'Kanit', sans-serif;
@@ -33,10 +56,6 @@ p {
   line-height: 2;
   font-weight: 400; }
 
-button.btn{
-    position: relative;
-    margin-left: 600px;
-  }
 
 .p-30 {
   padding: 30px !important; }
