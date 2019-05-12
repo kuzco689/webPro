@@ -55,6 +55,10 @@ p {
   font-size: 12px;
   line-height: 2;
   font-weight: 400; }
+  p a{
+    color: #777777;
+  }
+
 
 
 .p-30 {
