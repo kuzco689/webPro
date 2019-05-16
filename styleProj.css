@@ -4,6 +4,7 @@ div {
 
 nav.navbar a.navbar-brand{
   padding-left: 10px;
+  font-size: 22px;
 }
 
 div.collapse {
@@ -31,7 +32,7 @@ div.collapse li.nav-item{
     padding-left: 0px;
     padding-bottom: 5px;} }
 
-button.btn{
+button.btnsignin{
   position: relative;
   margin-right: 20px;
 }
@@ -59,6 +60,12 @@ p {
     color: #777777;
   }
 
+
+/*หัวข้อของแต่ละหน้าของหน้าย่อย*/
+div.container h1{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
 
 
 .p-30 {
@@ -292,6 +299,9 @@ p {
   }
 }
 
+div.verdicts p{
+  font-size: 13px;
+}
 .verdicts {
   display: flex;
   justify-content: space-between;
@@ -299,6 +309,9 @@ p {
   margin: 0px auto 0px;
   padding-left: 15px;
 }
+
+
+
 
 .post-picture{
   position: relative;
@@ -308,5 +321,7 @@ p {
   flex: 0 0 150px;
   max-width: 150px;
   width: 150px; }
-  .post-picture img {
-    width: 100%; }
+
+
+.post-picture img {
+  width: 100%; }
