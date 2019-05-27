@@ -83,13 +83,13 @@ p a{
     text-align: center;
 }
 .profile-img img{
-    width: 70%;
-    height: 100%;
+    width: 190px;
+    height: 190px;
 }
 .profile-img .file {
     position: relative;
     overflow: hidden;
-    margin-top: -20%;
+    margin-top: -24%;
     width: 70%;
     border: none;
     border-radius: 0;
@@ -103,6 +103,8 @@ p a{
     top: 0;
 }
 .profile-head h5{
+    margin-top: 5%;
+    font-size: 30px;
     color: #333;
 }
 .profile-head h6{
@@ -128,6 +130,7 @@ p a{
     font-weight: 600;
 }
 .profile-head .nav-tabs{
+    margin-top: 10%;
     margin-bottom:5%;
 }
 .profile-head .nav-tabs .nav-link{
@@ -143,7 +146,7 @@ p a{
     margin-top: -15%;
 }
 .profile-work p{
-    font-size: 12px;
+    font-size: 1.1em;
     color: #818182;
     font-weight: 600;
     margin-top: 10%;
@@ -152,7 +155,7 @@ p a{
     text-decoration: none;
     color: #495057;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 .profile-work ul{
     list-style: none;
@@ -162,6 +165,7 @@ p a{
 }
 .profile-tab p{
     font-weight: 600;
+    font-size: 14px;
     color: #0062cc;
 }
 
