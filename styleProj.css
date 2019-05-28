@@ -349,3 +349,54 @@ div.verdicts p{
 
 .post-picture img {
   width: 100%; }
+
+/*ปุ่ม fav*/
+label input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  /*margin-left: 2em;*/
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox .fas,.far {
+  color: gold;
+  position: absolute;
+  top: 0.4em;
+  right: 1em;
+  font-size: 0.85em;
+}
+
+.custom-checkbox .far{
+  color: gray;
+}
+
+.custom-checkbox .fas{
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.custom-checkbox:hover .fas{
+  opacity: 0.5;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .fas{
+  opacity: 1;
+}
+
+
+.editbtn{
+  position: relative;
+  right: 2.5em;
+}
+
+.header h1{
+  display: inline-block;
+}
+
+.header .newpost {
+  color: gray;
+  text-align: right;
+}
